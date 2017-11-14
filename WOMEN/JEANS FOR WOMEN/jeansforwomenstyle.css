@@ -1,0 +1,182 @@
+#custom-search-form {
+        margin:0;
+        margin-top: 30px;
+        padding: 0;
+    }
+ #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+#custom-search-form button {
+        border: 0;
+        background: none;
+        
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+	
+
+.gallery
+{
+    display: inline-block;
+    margin-top: 100px;
+	
+}
+.blur {
+    -webkit-filter: blur(4px)
+    
+}
+
+
+
+#kk {
+	left: 620px;
+}
+
+#i {
+	margin-top: 3cm;
+	width: 150%;
+	margin-left: 15%;
+} 
+#p {
+	margin-top: 10%;
+	margin-left: 6%;
+	width: 120%;
+	
+}
+
+#l {
+	margin-top: 10%;
+	margin-left: 6%;
+	width: 120%;
+	margin-bottom: 35%;
+}
+
+/*Scroll Up*/
+
+.scrollup{
+width: 40px;
+height: 40px;
+opacity: 0.3;
+position: fixed;
+bottom: 100px;
+right: 30px;
+display: none;
+text-indent: -9999px;
+background: url('icon_top.png') no-repeat;
+}
+
+body {
+	background: url('wall.jpg') repeat;
+}
+	
+#pop {
+	color: #000;
+}
+
+
+   /*ICONS*/
+.fa {
+	
+    padding: 30px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-facebook {
+ 
+  color: white;
+}
+
+.fa-twitter {
+  
+  color: white;
+}
+
+.fa-google {
+  
+  color: white;
+}
+
+.fa-linkedin {
+  
+  color: white;
+}
+
+.fa-youtube {
+ 
+  color: white;
+}
+
+.fa-instagram {
+ 
+  color: white;
+}
+
+.fa-skype {
+  
+  color: white;
+}
+
+.fa-tumblr {
+ 
+  color: white;
+}
+
+
+.fa-yahoo {
+
+  color: white;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 15%;	
+	font-family: Arial; 
+	text-shadow: 1px 1px 1px black;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.25);
+	box-shadow: inset 0 1px rgba(255,255,255,0);
+	color: white;
+	
+	
+}
+	
+.navbar-brand {
+	color: black;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 26.4px;
+}
