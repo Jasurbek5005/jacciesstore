@@ -20,3 +20,17 @@ return false;
 
 
 
+$(document).ready(function) {          
+$('#signup').validate({
+	rules: {
+		name: 'required',
+		email: {
+			required:true,
+			email:true
+		}
+	}
+}); // end validate()
+});
+
+
+

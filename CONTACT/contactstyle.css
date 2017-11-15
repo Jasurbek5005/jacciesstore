@@ -13,60 +13,16 @@ body {
 
 }
 
-label {
-	color: #FFFFFF;
-	background-color: #170B3B;
-	
-}
+
 
 .btn-primary {
     color: #fff;
     background-color: #170B3B;
     border-color: #170B3B;
 }
-	
-#regForm {
-  background-color: #ffffff;
-  margin: 100px auto;
-  padding: 40px;
-  width: 70%;
-  min-width: 300px;
-} 
 
-input {
-  padding: 10px;
-  width: 100%;
-  font-size: 17px;
-  font-family: Raleway;
-  border: 1px solid #aaaaaa;
-}
 
-/* Mark input boxes that gets an error on validation: */
-input.invalid {
-  background-color: #ffdddd;
-}
 
-/* Make circles that indicate the steps of the form: */
-.step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbbbbb;
-  border: none; 
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.5;
-}
-
-/* Mark the active step: */
-.step.active {
-  opacity: 1;
-}
-
-/* Mark the steps that are finished and valid: */
-.step.finish {
-  background-color: #4CAF50;
-}
 
  /*ICONS*/
 .fa {
@@ -158,4 +114,11 @@ footer {
 	font-weight: 600;
 	line-height: 26.4px;
 	left: 620px;
+}
+
+#valid {
+	background-color: #fff;
+	height: 200px;
+	width: 250px;
+	
 }

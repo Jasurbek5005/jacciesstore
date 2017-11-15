@@ -13,8 +13,39 @@
   <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
   <script src="//frontend.reklamor.com/fancybox/jquery.fancybox.js"></script>
   <title>JACCIES</title>
+  
+  
+  <!-- Validation form. I wrote  js codes here due to the fact that in contactapp.js it didn`t worked for some reasons -->
+  <script>
+  function submitFunction()
+  {
+  var x=document.forms["myForm"]["username"].value;
+   var y=document.forms["myForm"]["pwd"].value;
+   if(x==null||x==""||y==null||y=="")
+   {
+   alert("Both fields can`t be empty.");
+   }
+   else {
+   if(x=="Jaccies")
+   {
+   if(y=="5005")
+    {
+	alert("Login soccessful");
+	}
+	else{
+	 alert("Password do not match");
+	 }
+	}
+   else {
+     alert("User doesn`t exist");
+    }
+   }
+  }
+  
+  </script>
+  
   <link rel="stylesheet" href="contactstyle.css">
-														    </head>												
+ 										    </head>												
 
 															
 															
@@ -57,40 +88,16 @@
 </nav>
 
 								<!-- CONTACT US FORM -->
-
-<form id="regForm" action="">
-
-<h1>Register:</h1>
-
-<!-- One "tab" for each step in the form: -->
-<div class="tab">Name:
-  <p><input placeholder="First name..." oninput="this.className = ''"></p>
-  <p><input placeholder="Last name..." oninput="this.className = ''"></p>
-</div>
-
-<div class="tab">Contact Info:
-  <p><input placeholder="Example@mail.ru" oninput="this.className = ''"></p>
-  <p><input placeholder="998928XXXXXX" oninput="this.className = ''"></p>
-</div>
+								
+								
+<center><h2> Log In</h2><form id="valid" name="myForm" onsubmit="submitFunction()"> <br>
+Username:<input type="text" name="username"><br><br>
+Password:<input type="password" name="pwd"><br><br>
+<input id="btn" type="submit" value="Submit"> 
 
 
-<div class="tab">Login Info:
-  <p><input placeholder="Username..." oninput="this.className = ''"></p>
-  <p><input placeholder="Password..." oninput="this.className = ''"></p>
-</div>
-
-<center><button class="btn btn-primary">SUBMIT </button></center>
-
-
-<!-- Circles which indicates the steps of the form: -->
-<div style="text-align:center;margin-top:40px;">
-  <span class="step"></span>
-  <span class="step"></span>
-  <span class="step"></span>
-  <span class="step"></span>
-</div>
-
-</form>
+</form><br><button class="btn btn-default">Sign in</button></center>
+ 
 
 <section id="contacts">
 		 <h2>
